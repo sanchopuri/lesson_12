@@ -1,0 +1,198 @@
+body{
+	background-color: rgb(61, 61, 61);
+	font-family: "larsseit" ;
+}
+
+.artical__title{
+	width: 500px;
+	height: 60px;
+	text-align: center;
+	background-color: white;
+	margin: 0 auto; 
+	margin-top: 10px; 
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 15px;
+}
+
+.title{
+	width: 500px;
+	height: 60px;
+	background-color: plum;
+	padding: 15px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	transform: translate(10px,10px);
+	transition: all 0.5s ease 2s;
+}
+
+
+.conteiner{
+	margin: 90px;
+	
+}
+
+.conteiner__content{
+	width: 500px;
+	height: 500px;
+	background-color: white;
+}
+
+.conteiner__picture{
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	transform: translate(100%);
+	
+}
+
+.image-day{
+	background: url('../img/день.jpg') 0 0 no-repeat; 
+	width: 313px;
+	height: 305px; 
+	margin: 0 auto; 
+}
+
+
+.image-day:hover{
+	transform: scale(0.5);
+}
+
+.image-day:active{
+	background: url('../img/ночь.jpg') 0 0 no-repeat; 
+	width: 313px;
+	height: 305px; 
+	transform: translateX(-160%);
+}
+
+
+main{
+	background-color: white;
+	min-height: 2000px;
+}
+
+.selection__cards{
+	background: url('../img/уно.jpg') 0 0 no-repeat; 
+	width: 193px;
+	height: 300px;
+	padding: 50px;
+}
+
+.translation{
+	background: url('../img/перевод.png') 0 0 no-repeat; 
+	width: 200px;
+	height: 200px;
+	margin: 0px 0px 0px 232px;
+	transform: rotate(0deg);
+	transition: all 0.3s ease 0s;
+
+}
+
+.translation:hover{
+	transform: rotate(360deg);
+}
+
+
+
+.selection__uno{
+	padding: 200px;
+}
+
+.table-play{
+	margin: 0px 0px 0px 250px;
+	padding: 0px 0px 135px 0px;
+}
+
+.purple{
+	background-color: purple;
+	transform: skew(50deg, 10deg);
+	height: 200px;
+	width: 150px;
+}
+
+.green{
+	background-color: greenyellow;
+	transform: skew(346deg, 303deg);
+	height: 200px;
+	width: 150px;
+	margin: -195px 0px 0px 0px;
+}
+
+.blue{
+	background-color: blue;
+	transform: skew(130deg, 346deg);
+	height: 200px;
+	width: 150px;
+	margin:-195px 0px 0px 0px;
+}
+
+.window{
+	width: 500px;
+	height: 500px;
+	background-color: lightblue;
+	margin: 0 auto; 
+	margin-bottom: 40px;
+	
+}
+
+.window__image{
+	position: relative;
+	perspective: 200px;
+	perspective-origin: center;
+}
+
+.window__image::before{
+	position: absolute;
+	content: "";
+	background: url('../img/день.jpg') 0 0 no-repeat; 
+	width: 313px;
+	height: 305px; 
+	transform-origin: 0 0;
+	transform: rotate(102deg);
+	z-index: 2;
+}
+
+.picture{
+	background: url('../img/ночь.jpg') 0 0 no-repeat; 
+	width: 313px;
+	height: 305px; 
+	margin: 0 auto;
+	transform: rotateX(50deg);
+	z-index: 3;
+}
+
+.image{
+	background: url('../img/день.jpg') 0 0 no-repeat; 
+	width: 313px;
+	height: 305px; 
+	transform: rotate3d(5, 50, 5, 327deg);
+	margin:-335px 0px 0px 379px;
+}
+
+
+.counter{
+	width: 500px;
+	height: 500px;
+	background-color: lightcoral;
+	margin: 0 auto; 
+	margin-bottom: 40px;
+}
+
+.counter__image{
+	width: 500px;
+	height: 500px;
+	background-color: rgba(240, 128, 128, 0.482);
+	margin: 0 auto; 
+	margin-bottom: 40px;
+	perspective: 300px;
+	transform-style: preserve-3d;
+}
+
+.picture-2{
+	background: url('../img/ночь.jpg') 0 0 no-repeat; 
+	width: 313px;
+	height: 305px; 
+	transform: rotateY(30deg);
+	margin: 0px 0px 0px 0px;
+}
